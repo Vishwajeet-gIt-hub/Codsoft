@@ -1,0 +1,43 @@
+*{
+    padding: 2px;
+    margin: 0px;
+}
+
+
+#calculator{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 220px;
+    background-color: black;
+    margin-left:20% ;
+    margin-top: 10%;
+
+}
+#display{
+    margin: 10px ;
+    width: 85%;
+    font-size: 25px;
+    background-color: grey;
+
+
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+.button-class{
+    
+    width: 50px;
+    height: 40px;
+    margin: 3px;
+    border-radius: 30px;
+    background-color: grey;
+}
+#equal{
+    background-color: orange;
+}
+
