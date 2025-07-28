@@ -1,6 +1,7 @@
 *{
     padding: 2px;
     margin: 0px;
+    background-color: #3a3939 ;
 }
 
 
@@ -8,16 +9,17 @@
     border: 2px solid black;
     border-radius: 5px;
     width: 220px;
-    background-color: black;
-    margin-left:20% ;
+    background-color: rgb(100, 99,99);
+    margin-left:40% ;
     margin-top: 10%;
+    
 
 }
 #display{
     margin: 10px ;
     width: 85%;
     font-size: 25px;
-    background-color: grey;
+    background-color: #d0d0d0;
 
 
 }
@@ -26,6 +28,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    /* background-color: red; */
+
     
     
 }
@@ -35,9 +39,12 @@
     height: 40px;
     margin: 3px;
     border-radius: 30px;
-    background-color: grey;
+    /* color: rgb(160, 56, 56); */
 }
 #equal{
     background-color: orange;
+}
+#algebra{
+    color: orange;
 }
 
